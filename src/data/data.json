@@ -1,0 +1,167 @@
+{
+  "Header": {
+    "className": "intro",
+    "title": "",
+    "paragraph": ""
+  },
+  "HeaderSim": {
+    "className": "intro2",
+    "title": "Simulador de Crédito",
+    "paragraph": "Calcula tu cuota mensual basada en el valor del préstamo que deseas solicitar."
+  },
+  "About": {
+  "paragraph": "Somos una entidad financiera moderna y comprometida con el bienestar económico de nuestros clientes. Nuestra misión es facilitar el acceso a productos y servicios bancarios eficientes, confiables y adaptados a las nuevas necesidades digitales. Trabajamos cada día para brindar atención personalizada, generar valor y acompañar a nuestros clientes en cada etapa de su vida financiera.",
+  "Why": [
+    "Operaciones seguras con tecnología de punta",
+    "Atención personalizada según tu perfil",
+    "Asistencia continua a través de múltiples canales",
+    "Servicios digitales ágiles e intuitivos"
+  ],
+  "Why2": [
+    "Cobertura nacional con atención presencial y virtual",
+    "App optimizada para una experiencia sencilla y rápida",
+    "Beneficios exclusivos en alianzas comerciales",
+    "Iniciativas sostenibles y apoyo a la comunidad"
+  ]
+}
+,
+  "Gallery": [
+    {
+      "smallImage": "img/portfolio/1.jpg"
+    },
+    {
+      "smallImage": "img/portfolio/2.jpg"
+    },
+    {
+      "smallImage": "img/portfolio/3.jpg"
+    },
+    {
+      "smallImage": "img/portfolio/4.jpeg"
+    },
+    {
+      "smallImage": "img/portfolio/5.jpg"
+    },
+    {
+      "smallImage": "img/portfolio/6.jpg"
+    },
+    {
+      "smallImage": "img/portfolio/7.jpg"
+    },
+    {
+      "smallImage": "img/portfolio/8.jpg"
+    },
+    {
+      "smallImage": "img/portfolio/9.jpg"
+    }
+  ],
+  "Services": [
+  {
+    "icon": "fa fa-money",
+    "name": "Cuentas Digitales",
+    "text": "Abre tu cuenta 100% en línea y disfruta de operaciones sin comisiones, acceso inmediato y total seguridad digital."
+  },
+  {
+    "icon": "fa fa-credit-card",
+    "name": "Tarjetas Inteligentes",
+    "text": "Obtén tarjetas con control desde la app, límites personalizados y recompensas por tus compras diarias."
+  },
+  {
+    "icon": "fa fa-university",
+    "name": "Créditos Rápidos",
+    "text": "Solicita tu crédito en minutos desde tu celular, sin papeleos y con aprobación inmediata según tu perfil."
+  },
+  {
+    "icon": "fa fa-mobile",
+    "name": "Gestión Móvil",
+    "text": "Consulta tu saldo, paga servicios y transfiere dinero con solo unos clics desde tu smartphone."
+  },
+  {
+    "icon": "fa fa-usd",
+    "name": "Planes de Ahorro",
+    "text": "Elige entre distintos planes automáticos para alcanzar tus metas financieras sin esfuerzo."
+  },
+  {
+    "icon": "fa fa-globe",
+    "name": "Pagos Globales",
+    "text": "Envía dinero al extranjero con rapidez, seguridad y total transparencia en los costos."
+  }
+],
+
+
+ "Testimonials": [
+  {
+    "img": "img/testimonials/00.png",
+    "text": "Gracias a su asesoría financiera, pude organizar mis gastos y comenzar a ahorrar para mi primer departamento.",
+    "name": "Valeria Torres"
+  },
+  {
+    "img": "img/testimonials/00.png",
+    "text": "Me encanta la rapidez con la que puedo realizar transferencias y pagar mis servicios desde la app.",
+    "name": "Andrés Herrera"
+  },
+  {
+    "img": "img/testimonials/00.png",
+    "text": "El proceso para abrir una cuenta fue sencillo y sin complicaciones. Todo se hizo desde casa.",
+    "name": "Laura Fernández"
+  },
+  {
+    "img": "img/testimonials/00.png",
+    "text": "Recibí una atención increíble cuando tuve un problema con mi tarjeta. Lo resolvieron en minutos.",
+    "name": "Fernando Gutiérrez"
+  }
+  
+]
+,
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Avenida El Rey ",
+    "phone": " (02) 2999 999 ",
+    "email": "banco@banco.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Atención al Cliente",
+      "text": "Contamos con soporte especializado disponible 24/7 para resolver tus inquietudes y asesorarte en tus decisiones financieras."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Promociones y Ofertas",
+      "text": "Accede a promociones exclusivas en productos financieros, como cuentas de ahorro, préstamos y tarjetas de crédito."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Cuentas para Familias",
+      "text": "Ofrecemos cuentas compartidas y soluciones familiares para gestionar los recursos financieros en conjunto de forma segura y sencilla."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Innovación Digital",
+      "text": "Experimenta una plataforma segura y fácil de usar para todas tus operaciones bancarias, diseñada con las últimas tecnologías."
+    }
+  ]
+}

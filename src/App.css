@@ -1,0 +1,71 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  border-bottom: 2px solid #ddd;
+}
+
+.tabs button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #555;
+  position: relative;
+}
+
+.tabs button:hover {
+  color: #5481b1;
+}
+
+.tabs button.active {
+  color: #007bff;
+}
+
+.tabs button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #007bff;
+}
+
+.tab-content {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}

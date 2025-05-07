@@ -1,0 +1,217 @@
+/* Simulators.css */
+
+.simulators-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .simulator-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  
+  .tabs-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 30px;
+  }
+  
+  .tabs-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .tabs-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tabs-title:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #4a6bff, #6b8aff);
+    border-radius: 2px;
+  }
+  
+  .tabs-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  .tabs-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .tabs-navigation:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background-color: #eaeaea;
+  }
+  
+  .tab-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .tab-button:hover {
+    background-color: #f8f9ff;
+    color: #4a6bff;
+  }
+  
+  .tab-button.active {
+    background-color: #f0f4ff;
+    color: #4a6bff;
+  }
+  
+  .tab-button.active:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 20%;
+    right: 20%;
+    height: 3px;
+    background-color: #4a6bff;
+    border-radius: 3px 3px 0 0;
+    z-index: 1;
+  }
+  
+  .tab-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #f0f4ff;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button:hover .tab-icon,
+  .tab-button.active .tab-icon {
+    background-color: #e0e9ff;
+    transform: scale(1.05);
+  }
+  
+  .tab-button svg {
+    width: 28px;
+    height: 28px;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button:hover svg,
+  .tab-button.active svg {
+    color: #4a6bff;
+  }
+  
+  .tab-content-wrapper {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    min-height: 400px;
+  }
+  
+  .tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  .tab-content.visible {
+    display: block;
+  }
+  
+  .tab-content.hidden {
+    display: none;
+  }
+  
+  /* Animación para el contenido de las pestañas */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .tabs-navigation {
+      flex-direction: row;
+      gap: 10px;
+    }
+    
+    .tab-button {
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+    
+    .tab-icon {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .tab-button svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tabs-title {
+      font-size: 2rem;
+    }
+    
+    .tabs-navigation {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .tab-button {
+      flex-direction: row;
+      width: 100%;
+      justify-content: flex-start;
+      padding: 15px;
+    }
+    
+    .tab-icon {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 0;
+      margin-right: 15px;
+    }
+    
+    .tab-button.active:after {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 0;
+    }
+  }
